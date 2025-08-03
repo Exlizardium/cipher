@@ -1,0 +1,25 @@
+.popup-overlay {
+  .popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000055;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .popup-content {
+    color: white;
+    background-color: #6e8c63;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #00000033;
+    text-align: center;
+    position: relative;
+  }
+}

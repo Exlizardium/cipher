@@ -1,5 +1,8 @@
 function init(){
     import('./switch.js');
+    import('./popup.js');
+    import('./encode.js');
+    import('./decode.js');
 }
 
 const totalPartials = document.querySelectorAll(
